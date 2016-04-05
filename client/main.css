@@ -1,0 +1,25 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", sans-serif;
+    line-height: 1.4;
+    margin: 0 auto;
+    width: 860px;
+}
+
+blockquote {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.person {
+    display: block;
+}
+
+.intro {
+    font-size: 4em;
+}
+
+.company {
+    font-weight: 600;
+}
