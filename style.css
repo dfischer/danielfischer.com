@@ -29,7 +29,6 @@ ol ol {
   margin-bottom: 0;
 }
 blockquote {
-  border-bottom: 1px solid #cdcdcd;
   line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -93,8 +92,13 @@ code {
   margin-top: 0;
 }
 main {
-  width: 600px;
+  width: 630px;
   margin: 0 auto;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 blockquote p:before {
@@ -107,4 +111,18 @@ blockquote p:after {
   content: '”';
   font-size: 1.25em;
   font-weight: bold;
+}
+
+blockquote footer {
+  color: #888;
+}
+
+@media only screen and (max-width: 812px) {
+  body {
+    margin: 16px;
+  }
+
+  main {
+    width: 100%;
+  }
 }
