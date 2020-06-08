@@ -103,10 +103,6 @@ code {
 .hug {
   margin-top: 0;
 }
-main {
-  width: 590px;
-  margin: 0 auto;
-}
 
 blockquote {
   margin-left: 0;
@@ -137,12 +133,8 @@ a:focus {
   color: #00baff;
 }
 
-@media only screen and (max-width: 812px) {
-  body {
-    margin: 16px;
-  }
-
-  main {
-    width: 100%;
-  }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
